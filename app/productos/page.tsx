@@ -12,7 +12,7 @@ export default function ProductosPage() {
     {
       id: "cervezas",
       name: "Cervezas",
-      image: "/quilmes-poster.jpg",
+      image: "/cervezas.png",
       products: [
         "Quilmes Clásica",
         "Quilmes Stout",
