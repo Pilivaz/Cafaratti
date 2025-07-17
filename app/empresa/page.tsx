@@ -49,7 +49,7 @@ export default function EmpresaPage() {
       title: "Gestión Comercial Galaxia Q",
       icon: Star,
       content:
-        "Galaxia Q es el Programa de Calidad de Gestión Comercial de Cervecería y Maltería Quilmes, en el cual RSR Cafaratti participa junto con otros 200 Distribuidores del país, desde el año 2004.", "Este Programa mide el desempeño de las empresas distribuidoras perteneciente a las red Quilmes. En esta sección usted verá las acciones que esta realizando nuestra empresa, no sólo para mejorar la performance sino también la atención hacia nuestros clientes.",
+        "Galaxia Q es el Programa de Calidad de Gestión Comercial de Cervecería y Maltería Quilmes, en el cual RSR Cafaratti participa junto con otros 200 Distribuidores del país, desde el año 2004. Este Programa mide el desempeño de las empresas distribuidoras perteneciente a las red Quilmes. En esta sección usted verá las acciones que esta realizando nuestra empresa, no sólo para mejorar la performance sino también la atención hacia nuestros clientes.",
     },
     {
       id: "consumo-responsable",
