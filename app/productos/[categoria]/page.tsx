@@ -16,7 +16,7 @@ const categoryProducts = {
       {
         name: "Quilmes Clásica",
         slug: "quilmes-clasica",
-        image: "/quilmes-clasica-lata.png",
+        image: "/quilmes-stout-lata.png",
       },
       {
         name: "Quilmes Stout",
