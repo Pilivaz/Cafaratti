@@ -42,14 +42,14 @@ export default function EmpresaPage() {
       title: "Política de Calidad",
       icon: Shield,
       content:
-        "Nos comprometemos a mantener los más altos estándares de calidad en todos nuestros procesos, desde la recepción hasta la entrega final, garantizando la satisfacción de nuestros clientes.",
+        "Los altos estándares de calidad de Cervecería y Maltería Quilmes se complementan con los sistemas de calidad de cada uno de sus proveedores, con quienes se trabaja sinérgicamente, desarrollándolos para mantener y optimizar la calidad de los materiales que suministran. Para complementar este proceso, mediante auditorías de calidad en el mercado, se verifica que las condiciones de almacenamiento, transporte, exhibición en los puntos de venta y distribución sean las óptimas con el fin de asegurar que la calidad y la frescura de los productos se mantengan inalterables.",
     },
     {
       id: "gestion-comercial",
       title: "Gestión Comercial Galaxia Q",
       icon: Star,
       content:
-        "Implementamos el sistema Galaxia Q de Quilmes para optimizar nuestra gestión comercial, mejorando la eficiencia en pedidos, entregas y atención al cliente.",
+        "Galaxia Q es el Programa de Calidad de Gestión Comercial de Cervecería y Maltería Quilmes, en el cual RSR Cafaratti participa junto con otros 200 Distribuidores del país, desde el año 2004. Este Programa mide el desempeño de las empresas distribuidoras perteneciente a las red Quilmes. En esta sección usted verá las acciones que esta realizando nuestra empresa, no sólo para mejorar la performance sino también la atención hacia nuestros clientes.",
     },
     {
       id: "consumo-responsable",
