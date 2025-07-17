@@ -12,9 +12,7 @@ const productsDatabase = {
     name: "Quilmes Clásica",
     category: "Cervezas",
     logo: "/quilmes-logo.webp", // Placeholder - se puede cambiar por logo específico de Quilmes
-    image: "quilmes-clasica-lata-presentacion.png", // Main image (can be first of presentationImages)
-    presentationImages: [
-      "quilmes-clasica-lata-presentacion.png",
+    image: "/quilmes-clasica-lata.png", // Main image (can be first of presentationImages)
       "/quilmes-clasica-lata.png",
       "/quilmes-clasica-laton.png",
       "/quilmes-clasica-botella.png",
