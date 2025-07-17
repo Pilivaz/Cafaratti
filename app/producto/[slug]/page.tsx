@@ -14,7 +14,6 @@ const productsDatabase = {
     logo: "/quilmes-logo.webp", // Placeholder - se puede cambiar por logo específico de Quilmes
     image: "/quilmes-clasica-lata.png", // Main image (can be first of presentationImages)
       "/quilmes-clasica-lata.png",
-      "/quilmes-clasica-lata-presentacion.png",
       "/quilmes-clasica-laton.png",
       "/quilmes-clasica-botella.png",
       "/quilmes-clasica-botellaChica.png",
