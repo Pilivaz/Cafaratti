@@ -56,7 +56,7 @@ const categoryProducts = {
       {
         name: "Stella Artois Noire",
         slug: "stella-artois-noire",
-        image: "/stellaArtois-noire-lata.png",
+        image: "/stellaArtois-noire-lata.webp",
       },
       {
         name: "Stella Artois Cero",
