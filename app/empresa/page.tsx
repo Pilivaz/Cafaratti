@@ -34,7 +34,7 @@ export default function EmpresaPage() {
           "Ser una empresa líder en la distribución de productos de consumo masivo, caracterizada por la excelencia en el servicio. Somos competitivos, exitosos, innovadores y con calidad humana, trabajamos unidos como un equipo comprometido para mantener y reforzar nuestro liderazgo.",
         vision:
           "Lograr una basta distribución de un portafolio diversificado de productos y marcas de excelente calidad, optimizando e innovando procesos con tecnología de punta, capaz de adaptarse a los cambios para satisfacer de manera oportuna las necesidades de nuestros clientes.",
-        valores:["Preocupación por nuestros clientes, empleados y el mundo en que vivimos.", "Vender sólo productos de los que podamos sentirnos orgullosos.", "Comunicación clara y sincera.", "Calibrar los efectos a corto y largo plazo.", "Beneficiarse de la diversidad y de la inclusión.", "Respetar a los demás y lograr juntos el éxito."],
+        valores:["Preocupación por nuestros clientes, empleados y el mundo.", "Vender productos de los cuales nos sentimos orgullosos.", "Comunicación clara y sincera.", "Calibrar los efectos a corto y largo plazo.", "Beneficiarse de la diversidad e inclusión.", "Respetar a todos y lograr juntos el éxito."],
       },
     },
     {
