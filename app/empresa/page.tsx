@@ -285,7 +285,7 @@ export default function Empresa() {
                 <p className="text-lg text-slate-600 leading-relaxed">
                   El pilar Consumo Responsable se divide en dos ejes: <strong className="text-slate-900">"No venta de alcohol a 
                     menores"</strong> y <strong className="text-slate-900">"Alcohol y Manejo"</strong>.
-                </p>}
+                </p>
                 <p className="text-lg text-slate-600 leading-relaxed">
                   El eje <strong className="text-slate-900">"No venta de alcohol a menores" </strong>
                   tiene como objetivo generar conciencia en los comercios sobre la venta responsable de alcohol sólo a mayores de 18 años; 
