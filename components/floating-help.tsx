@@ -33,7 +33,7 @@ export default function FloatingHelp() {
           <div className="p-4 space-y-3">
             <Button
               className="w-full bg-green-500 hover:bg-green-600 text-white"
-              onClick={() => window.open("https://wa.me/5491234567890", "_blank")}
+              onClick={() => window.open("https://api.whatsapp.com/send?phone=5491166784173", "_blank")}
             >
               <MessageCircle className="h-4 w-4 mr-2" />
               Contactar por WhatsApp
