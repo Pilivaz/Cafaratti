@@ -55,8 +55,8 @@ export default function Empresa() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <img
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Equipo de trabajo colaborativo"
+                  src="/mision-vision-valores.jpg"
+                  alt="Cafaratti edificio"
                   className="w-full h-80 object-cover rounded-lg shadow-lg"
                 />
               </div>
@@ -69,9 +69,9 @@ export default function Empresa() {
                     <h3 className="text-3xl font-bold text-slate-900">Misión</h3>
                   </div>
                   <p className="text-lg text-slate-600 leading-relaxed">
-                    Distribuir bebidas de la más alta calidad, brindando un servicio excepcional que supere las
-                    expectativas de nuestros clientes, mientras construimos relaciones duraderas basadas en la
-                    confianza, la transparencia y la excelencia operativa.
+                    Ser una empresa líder en la distribución de productos de consumo masivo, caracterizada por la excelencia en el servicio. 
+                    Somos competitivos, exitosos, innovadores y con calidad humana, trabajamos unidos como un equipo comprometido para mantener 
+                    y reforzar nuestro liderazgo.
                   </p>
                 </div>
 
@@ -83,9 +83,9 @@ export default function Empresa() {
                     <h3 className="text-3xl font-bold text-slate-900">Visión</h3>
                   </div>
                   <p className="text-lg text-slate-600 leading-relaxed">
-                    Ser el distribuidor de bebidas líder en la región, reconocido por nuestra innovación, calidad de
-                    servicio y compromiso con la satisfacción del cliente, expandiendo continuamente nuestro alcance y
-                    portafolio de productos premium.
+                    Lograr una basta distribución de un portafolio diversificado de productos y marcas de excelente calidad, optimizando e innovando 
+                    procesos con tecnología de punta, capaz de adaptarse a los cambios para satisfacer de manera oportuna las necesidades de nuestros 
+                    clientes.
                   </p>
                 </div>
 
@@ -96,10 +96,47 @@ export default function Empresa() {
                     </div>
                     <h3 className="text-3xl font-bold text-slate-900">Valores</h3>
                   </div>
-                  <p className="text-lg text-slate-600 leading-relaxed">
-                    Integridad, excelencia, compromiso con el cliente, trabajo en equipo, innovación continua y
-                    responsabilidad social. Estos valores guían cada una de nuestras decisiones y acciones diarias.
+                  <p className="text-lg text-slate-600 leading-relaxed mb-6">
+                    Para materializar nuestro compromiso, debemos esforzarnos en todo momento por:
                   </p>
+                  <ul className="space-y-3">
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-amber-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-slate-600">
+                        <strong className="text-slate-900">Preocupación</strong> por nuestros clientes, empleados y el mundo en que vivimos.
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-amber-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-slate-600">
+                        Vender sólo productos de los que podamos sentirnos <strong className="text-slate-900">orgullosos</strong>.
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-amber-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-slate-600">
+                        <strong className="text-slate-900">Comunicación</strong> clara y sincera.
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-amber-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-slate-600">
+                        <strong className="text-slate-900">Calibrar</strong> los efectos a corto y largo plazo.
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-amber-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-slate-600">
+                        Beneficiarse de la <strong className="text-slate-900">diversidad</strong> y de la <strong className="text-slate-900">inclusión</strong>.
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-amber-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-slate-600">
+                        <strong className="text-slate-900">Respetar</strong> a los demás y lograr juntos el éxito.
+                      </span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -120,20 +157,19 @@ export default function Empresa() {
                   <h3 className="text-3xl font-bold text-slate-900">Política de Calidad</h3>
                 </div>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  En RSR Cafaratti, la calidad es el pilar fundamental de nuestras operaciones. Implementamos rigurosos
-                  controles de calidad en cada etapa del proceso de distribución, desde la recepción de productos hasta
-                  la entrega final al cliente.
+                  Los altos estándares de calidad de Cervecería y Maltería Quilmes se complementan con los sistemas de calidad de cada uno 
+                  de sus proveedores, con quienes se trabaja sinérgicamente, desarrollándolos para mantener y optimizar la calidad de los 
+                  materiales que suministran
                 </p>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  Nuestro sistema de gestión de calidad está certificado bajo normas internacionales, garantizando que
-                  todos nuestros productos mantengan sus propiedades organolépticas y cumplan con los más altos
-                  estándares de seguridad alimentaria. Realizamos auditorías periódicas y capacitamos constantemente a
-                  nuestro personal para asegurar la excelencia en cada proceso.
+                  Para complementar este proceso, mediante auditorías de calidad en el mercado, se verifica que las condiciones de 
+                  almacenamiento, transporte, exhibición en los puntos de venta y distribución sean las óptimas con el fin de asegurar 
+                  que la calidad y la frescura de los productos se mantengan inalterables.
                 </p>
               </div>
               <div className="order-1 lg:order-2">
                 <img
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/quilmes-poster.jpg"
                   alt="Control de calidad y certificación"
                   className="w-full h-80 object-cover rounded-lg shadow-lg"
                 />
@@ -150,7 +186,7 @@ export default function Empresa() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <img
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/galaxiaQ.jpg"
                   alt="Sistema Galaxia Q"
                   className="w-full h-80 object-cover rounded-lg shadow-lg"
                 />
@@ -163,20 +199,62 @@ export default function Empresa() {
                   <h3 className="text-3xl font-bold text-slate-900">Gestión Comercial Galaxia Q</h3>
                 </div>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  Implementamos el sistema Galaxia Q, una plataforma integral de gestión comercial que revoluciona
-                  nuestra operación diaria. Este sistema nos permite optimizar la gestión de inventarios, pedidos,
-                  facturación y seguimiento de entregas en tiempo real.
+                  Galaxia Q es el Programa de Calidad de Gestión Comercial de Cervecería y Maltería Quilmes, 
+                  en el cual RSR Cafaratti participa junto con otros 200 Distribuidores del país, desde el año 2004.
                 </p>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  Galaxia Q nos proporciona herramientas avanzadas de análisis y reportes que nos permiten tomar
-                  decisiones informadas, mejorar la eficiencia operativa y brindar un servicio más personalizado a
-                  nuestros clientes. La integración de esta tecnología nos posiciona a la vanguardia del sector.
+                  Este Programa mide el desempeño de las empresas distribuidoras perteneciente a las red Quilmes. 
+                  En esta sección usted verá las acciones que esta realizando nuestra empresa, no sólo para mejorar 
+                  la performance sino también la atención hacia nuestros clientes.
                 </p>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  Gracias a Galaxia Q, podemos ofrecer a nuestros clientes acceso en línea a su información comercial,
-                  historial de pedidos, estado de entregas y análisis de consumo, facilitando una comunicación más
-                  fluida y transparente en nuestra relación comercial.
+                  Producto de este Desarrollo Comercial, en RSR Cafaratti obtuvimos una importante cantidad de premios y 
+                  menciones a lo largo de estos años.
                 </p>
+                 <ul className="space-y-3">
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-amber-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-slate-600">
+                         Premio Lucero Bronce del Centro 2005
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-amber-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-slate-600">
+                        Premio Lucero de Plata a los Resultados 2006
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-amber-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-slate-600">
+                         Premio Lucero de Plata del Sur 2011 y 2012
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-amber-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-slate-600">
+                        Premio Lucero de Plata Ventas 2012
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-amber-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-slate-600">
+                        Premio Embajador 2013, 2014, 2015 y 2016
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-amber-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-slate-600">
+                         Premio Astro 2013, 2014, 2015 y 2016
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-amber-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-slate-600">
+                         Premio Mega Estrella 2016
+                      </span>
+                    </li>
+                  </ul>
               </div>
             </div>
           </div>
@@ -196,20 +274,29 @@ export default function Empresa() {
                   <h3 className="text-3xl font-bold text-slate-900">Consumo Responsable</h3>
                 </div>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  Promovemos activamente el consumo responsable de bebidas alcohólicas y educamos a nuestros clientes
-                  sobre la importancia de un consumo moderado y consciente. Colaboramos con organizaciones
-                  especializadas para desarrollar campañas de concientización y programas educativos.
+                  Vivamos Responsablemente es un programa integral desarrollado por Cervecería y Maltería Quilmes, 
+                  basado en los pilares de Educación y Consumo Responsable.
                 </p>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  Nuestro compromiso incluye la verificación de edad en puntos de venta, la capacitación de personal en
-                  establecimientos comerciales y el apoyo a iniciativas que fomenten hábitos de consumo saludables en la
-                  comunidad. Creemos que la responsabilidad social es fundamental para el desarrollo sostenible de
-                  nuestro sector.
+                  El programa abarca diversas iniciativas sociales orientadas a promover el consumo y la venta responsables de 
+                  alcohol a mayores de edad, contribuir a la toma de conciencia sobre la incompatibilidad de combinar las acciones 
+                  de beber y conducir, y la promoción de valores saludables.
+                </p>
+                <p className="text-lg text-slate-600 leading-relaxed">
+                  El pilar Consumo Responsable se divide en dos ejes: <strong className="text-slate-900">"No venta de alcohol a 
+                    menores"</strong> y <strong className="text-slate-900">"Alcohol y Manejo"</strong>.
+                </p>}
+                <p className="text-lg text-slate-600 leading-relaxed">
+                  El eje <strong className="text-slate-900">"No venta de alcohol a menores" </strong>
+                  tiene como objetivo generar conciencia en los comercios sobre la venta responsable de alcohol sólo a mayores de 18 años; 
+                  mientras que el eje <strong className="text-slate-900">"Alcohol y Manejo" </strong>
+                  busca concientizar a los jóvenes mayores de 18 años respecto de la importancia de consumir bebidas con alcohol de una 
+                  manera responsable y acerca de la incompatibilidad de mezclar las acciones de beber y conducir.
                 </p>
               </div>
               <div className="order-1 lg:order-2">
                 <img
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/consumo-responsable.jpg"
                   alt="Consumo responsable y responsabilidad social"
                   className="w-full h-80 object-cover rounded-lg shadow-lg"
                 />
@@ -226,7 +313,7 @@ export default function Empresa() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <img
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/zona-reciclado.jpg"
                   alt="Compromiso sustentable"
                   className="w-full h-80 object-cover rounded-lg shadow-lg"
                 />
@@ -239,15 +326,15 @@ export default function Empresa() {
                   <h3 className="text-3xl font-bold text-slate-900">Compromiso Sustentable</h3>
                 </div>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  Nuestro compromiso con la sustentabilidad se refleja en cada aspecto de nuestras operaciones.
-                  Implementamos prácticas eco-amigables en nuestra logística, optimizando rutas de entrega para reducir
-                  emisiones de carbono y utilizando vehículos con tecnologías más limpias.
+                  A principios de 2018, aumentamos nuestro compromiso con el cuidado del Medio Ambiente, y aplicamos un 
+                  sistema con el que también innovamos en calidad de nuestros servicios.
                 </p>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  Trabajamos activamente en programas de reciclaje y reutilización de envases, colaborando con nuestros
-                  proveedores y clientes para crear un ciclo de vida más sostenible de los productos. Además, promovemos
-                  el uso responsable de recursos en nuestras instalaciones y fomentamos la conciencia ambiental entre
-                  nuestros colaboradores y la comunidad.
+                  Así pusimos en marcha nuestra <strong className="text-slate-900">ZONA DE RECICLADO</strong>, un espacio con ubicación estratégica en nuestra Planta Central, 
+                  en la cual instalamos una máquina compactadoral que nos permite reciclar botellas plásticas de 2 y 2,25 litros.
+                </p>
+                <p className="text-lg text-slate-600 leading-relaxed">
+                  A esta acción también sumamos la propuesta de consumo de envases retornables, ayudando además la economía de nuestros clientes.
                 </p>
               </div>
             </div>
