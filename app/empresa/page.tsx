@@ -15,7 +15,7 @@ export default function Empresa() {
         </div>
       </section>
 
-       {/* Company Story */}
+      {/* Historia Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -63,7 +63,9 @@ export default function Empresa() {
               <div className="space-y-8">
                 <div>
                   <div className="flex items-center mb-4">
-                    <Target className="h-8 w-8 text-amber-600 mr-3" />
+                    <div className="w-12 h-12 bg-amber-400 rounded-full flex items-center justify-center mr-3">
+                      <Target className="h-6 w-6 text-black" />
+                    </div>
                     <h3 className="text-3xl font-bold text-slate-900">Misión</h3>
                   </div>
                   <p className="text-lg text-slate-600 leading-relaxed">
@@ -75,7 +77,9 @@ export default function Empresa() {
 
                 <div>
                   <div className="flex items-center mb-4">
-                    <Eye className="h-8 w-8 text-amber-600 mr-3" />
+                    <div className="w-12 h-12 bg-amber-400 rounded-full flex items-center justify-center mr-3">
+                      <Eye className="h-6 w-6 text-black" />
+                    </div>
                     <h3 className="text-3xl font-bold text-slate-900">Visión</h3>
                   </div>
                   <p className="text-lg text-slate-600 leading-relaxed">
@@ -87,7 +91,9 @@ export default function Empresa() {
 
                 <div>
                   <div className="flex items-center mb-4">
-                    <Heart className="h-8 w-8 text-amber-600 mr-3" />
+                    <div className="w-12 h-12 bg-amber-400 rounded-full flex items-center justify-center mr-3">
+                      <Heart className="h-6 w-6 text-black" />
+                    </div>
                     <h3 className="text-3xl font-bold text-slate-900">Valores</h3>
                   </div>
                   <p className="text-lg text-slate-600 leading-relaxed">
@@ -108,7 +114,9 @@ export default function Empresa() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 space-y-6">
                 <div className="flex items-center mb-4">
-                  <Shield className="h-8 w-8 text-amber-600 mr-3" />
+                  <div className="w-12 h-12 bg-amber-400 rounded-full flex items-center justify-center mr-3">
+                    <Shield className="h-6 w-6 text-black" />
+                  </div>
                   <h3 className="text-3xl font-bold text-slate-900">Política de Calidad</h3>
                 </div>
                 <p className="text-lg text-slate-600 leading-relaxed">
@@ -149,7 +157,9 @@ export default function Empresa() {
               </div>
               <div className="space-y-6">
                 <div className="flex items-center mb-4">
-                  <Star className="h-8 w-8 text-amber-600 mr-3" />
+                  <div className="w-12 h-12 bg-amber-400 rounded-full flex items-center justify-center mr-3">
+                    <Star className="h-6 w-6 text-black" />
+                  </div>
                   <h3 className="text-3xl font-bold text-slate-900">Gestión Comercial Galaxia Q</h3>
                 </div>
                 <p className="text-lg text-slate-600 leading-relaxed">
@@ -180,7 +190,9 @@ export default function Empresa() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 space-y-6">
                 <div className="flex items-center mb-4">
-                  <Heart className="h-8 w-8 text-amber-600 mr-3" />
+                  <div className="w-12 h-12 bg-amber-400 rounded-full flex items-center justify-center mr-3">
+                    <Heart className="h-6 w-6 text-black" />
+                  </div>
                   <h3 className="text-3xl font-bold text-slate-900">Consumo Responsable</h3>
                 </div>
                 <p className="text-lg text-slate-600 leading-relaxed">
@@ -221,7 +233,9 @@ export default function Empresa() {
               </div>
               <div className="space-y-6">
                 <div className="flex items-center mb-4">
-                  <Leaf className="h-8 w-8 text-amber-600 mr-3" />
+                  <div className="w-12 h-12 bg-amber-400 rounded-full flex items-center justify-center mr-3">
+                    <Leaf className="h-6 w-6 text-black" />
+                  </div>
                   <h3 className="text-3xl font-bold text-slate-900">Compromiso Sustentable</h3>
                 </div>
                 <p className="text-lg text-slate-600 leading-relaxed">
