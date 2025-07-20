@@ -1,5 +1,4 @@
 import { Award, Clock, Users, Target, Shield, Handshake, Leaf, Star, CheckCircle } from "lucide-react"
-import Image from "next/image"
 
 export default function EmpresaPage() {
   const values = [
@@ -65,7 +64,6 @@ export default function EmpresaPage() {
       icon: Leaf,
       content:
         "Trabajamos activamente en la reducción de nuestro impacto ambiental a través de prácticas sustentables en logística, reciclaje y uso eficiente de recursos.",
-        
     },
   ]
 
@@ -149,62 +147,17 @@ export default function EmpresaPage() {
                       </div>
                     </div>
                   </div>
-                ) : section.id === "gestion-comercial" ? (
-                  <div className="space-y-6">
-                    <p className="text-lg text-gray-700 leading-relaxed">
-                      Implementamos el sistema Galaxia Q de Quilmes para optimizar nuestra gestión comercial, mejorando
-                      la eficiencia en pedidos, entregas y atención al cliente.
-                    </p>
-                    <p className="text-lg text-gray-700 leading-relaxed">
-                      Este sistema nos permite brindar un servicio más ágil y personalizado, manteniendo un control
-                      preciso de inventarios y facilitando la comunicación directa con nuestros clientes.
-                    </p>
-                  </div>
                 ) : (
                   <p className="text-lg text-gray-700 leading-relaxed">{section.content}</p>
                 )}
               </div>
 
               <div className={index % 2 === 1 ? "order-1" : ""}>
-                <div className="bg-gradient-to-br from-slate-100 to-slate-200 rounded-2xl h-64 flex items-center justify-center shadow-lg overflow-hidden">
-                  {section.id === "gestion-comercial" || section.id === "compromiso-sustentable" ? (
-                    <Image
-                      src="/logo-rsr-cafaratti.png"
-                      alt={
-                        section.id === "gestion-comercial" ? "Gestión Comercial Galaxia Q" : "Compromiso Sustentable"
-                      }
-                      fill
-                      className="object-cover rounded-2xl"
-                    />
-                  ) : section.id === "mision-vision-valores" ? (
-                    <Image
-                      src="/logo-rsr-cafaratti.png"
-                      alt="Misión, Visión y Valores"
-                      fill
-                      className="object-cover rounded-2xl"
-                    />
-                  ) : section.id === "politica-calidad" ? (
-                    <Image
-                      src="/logo-rsr-cafaratti.png"
-                      alt="Política de Calidad"
-                      fill
-                      className="object-cover rounded-2xl"
-                    />
-                  ) : section.id === "consumo-responsable" ? (
-                    <Image
-                      src="/logo-rsr-cafaratti.png"
-                      alt="Consumo Responsable"
-                      fill
-                      className="object-cover rounded-2xl"
-                    />
-                  ) : (
-                    <Image
-                      src="/logo-rsr-cafaratti.png"
-                      alt="Imagen Corporativa"
-                      fill
-                      className="object-cover rounded-2xl"
-                    />
-                  )}
+                <div className="bg-gradient-to-br from-slate-100 to-slate-200 rounded-2xl h-64 flex items-center justify-center shadow-lg">
+                  <div className="text-center">
+                    <section.icon className="h-16 w-16 text-slate-400 mx-auto mb-4" />
+                    <p className="text-slate-500">Imagen de {section.title}</p>
+                  </div>
                 </div>
               </div>
             </div>
