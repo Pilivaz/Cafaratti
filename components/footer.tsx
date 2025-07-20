@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Instagram, Twitter } from "lucide-react"
+import { Facebook, Instagram, PhoneIcon as Whatsapp } from "lucide-react"
 import Image from "next/image"
 
 export default function Footer() {
@@ -22,14 +22,23 @@ export default function Footer() {
               Distribución de bebidas líderes con más de 20 años de experiencia en el mercado.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors duration-200">
+              <a
+                href="https://www.facebook.com/Cafaratti.RSR"
+                className="text-gray-400 hover:text-yellow-400 transition-colors duration-200"
+              >
                 <Facebook className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors duration-200">
+              <a
+                href="https://www.instagram.com/rsrcafaratti?igsh=MXB5bmxxMGY2Mzk4Nw=="
+                className="text-gray-400 hover:text-yellow-400 transition-colors duration-200"
+              >
                 <Instagram className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors duration-200">
-                <Twitter className="h-6 w-6" />
+              <a
+                href="https://api.whatsapp.com/send?phone=5491166784173"
+                className="text-gray-400 hover:text-yellow-400 transition-colors duration-200"
+              >
+                <Whatsapp className="h-6 w-6" />
               </a>
             </div>
           </div>
