@@ -1,21 +1,87 @@
 import { Award, Clock, Users, Target, Shield, Handshake, Leaf, Star, CheckCircle } from "lucide-react"
+import Image from "next/image"
 
 export default function EmpresaPage() {
+  const values = [
+    {
+      icon: Award,
+      title: "Calidad",
+      description: "Productos de las mejores marcas del mercado",
+    },
+    {
+      icon: Clock,
+      title: "Rapidez",
+      description: "Entregas puntuales y eficientes",
+    },
+    {
+      icon: Users,
+      title: "Servicio",
+      description: "Atención personalizada a cada cliente",
+    },
+    {
+      icon: Target,
+      title: "Cobertura",
+      description: "Amplia zona de distribución",
+    },
+  ]
+
+  const sections = [
+    {
+      id: "mision-vision-valores",
+      title: "Misión, Visión y Valores",
+      icon: Target,
+      content: {
+        mision:
+          "Ser el distribuidor de bebidas de referencia en nuestra región, ofreciendo productos de la más alta calidad con un servicio excepcional.",
+        vision:
+          "Construir relaciones duraderas con nuestros clientes y contribuir al crecimiento de sus negocios a través de la excelencia en el servicio.",
+        valores: ["Calidad", "Compromiso", "Confianza", "Innovación", "Responsabilidad"],
+      },
+    },
+    {
+      id: "politica-calidad",
+      title: "Política de Calidad",
+      icon: Shield,
+      content:
+        "Nos comprometemos a mantener los más altos estándares de calidad en todos nuestros procesos, desde la recepción hasta la entrega final, garantizando la satisfacción de nuestros clientes.",
+    },
+    {
+      id: "gestion-comercial",
+      title: "Gestión Comercial Galaxia Q",
+      icon: Star,
+      content:
+        "Implementamos el sistema Galaxia Q de Quilmes para optimizar nuestra gestión comercial, mejorando la eficiencia en pedidos, entregas y atención al cliente.",
+    },
+    {
+      id: "consumo-responsable",
+      title: "Consumo Responsable",
+      icon: Handshake,
+      content:
+        "Promovemos el consumo responsable de bebidas alcohólicas, educando sobre los riesgos del consumo excesivo y apoyando iniciativas de concientización.",
+    },
+    {
+      id: "compromiso-sustentable",
+      title: "Compromiso Sustentable",
+      icon: Leaf,
+      content:
+        "Trabajamos activamente en la reducción de nuestro impacto ambiental a través de prácticas sustentables en logística, reciclaje y uso eficiente de recursos.",
+        
+    },
+  ]
+
   return (
-    <div className="pt-16">
+    <main className="pt-16">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-slate-900 to-slate-800">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl font-bold text-white mb-6">Nuestra Empresa</h1>
-            <p className="text-xl text-slate-300">
-              Más de 20 años de experiencia en la distribución de bebidas de primera calidad
-            </p>
-          </div>
+      <section className="bg-gradient-to-br from-slate-900 to-slate-800 text-white py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-5xl font-bold mb-6">Nuestra Empresa</h1>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            Más de 20 años de experiencia en la distribución de bebidas de primera calidad
+          </p>
         </div>
       </section>
 
-       {/* Company Story */}
+      {/* Company Story */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -48,199 +114,130 @@ export default function EmpresaPage() {
         </div>
       </section>
 
-      {/* Misión, Visión y Valores */}
-      <section className="py-20 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
+      {/* New Sections */}
+      {sections.map((section, index) => (
+        <section key={section.id} className={`py-20 ${index % 2 === 0 ? "bg-gray-50" : "bg-white"}`}>
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <img
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Equipo de trabajo colaborativo"
-                  className="w-full h-80 object-cover rounded-lg shadow-lg"
-                />
-              </div>
-              <div className="space-y-8">
-                <div>
-                  <div className="flex items-center mb-4">
-                    <Target className="h-8 w-8 text-amber-600 mr-3" />
-                    <h3 className="text-3xl font-bold text-slate-900">Misión</h3>
+              <div className={index % 2 === 1 ? "order-2" : ""}>
+                <div className="flex items-center mb-6">
+                  <div className="bg-yellow-400 w-16 h-16 rounded-full flex items-center justify-center mr-4">
+                    <section.icon className="h-8 w-8 text-slate-900" />
                   </div>
-                  <p className="text-lg text-slate-600 leading-relaxed">
-                    Distribuir bebidas de la más alta calidad, brindando un servicio excepcional que supere las
-                    expectativas de nuestros clientes, mientras construimos relaciones duraderas basadas en la
-                    confianza, la transparencia y la excelencia operativa.
-                  </p>
+                  <h2 className="text-4xl font-bold text-slate-900">{section.title}</h2>
                 </div>
 
-                <div>
-                  <div className="flex items-center mb-4">
-                    <Eye className="h-8 w-8 text-amber-600 mr-3" />
-                    <h3 className="text-3xl font-bold text-slate-900">Visión</h3>
+                {section.id === "mision-vision-valores" ? (
+                  <div className="space-y-6">
+                    <div>
+                      <h3 className="text-xl font-semibold text-slate-900 mb-3">Misión</h3>
+                      <p className="text-gray-700">{section.content.mision}</p>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold text-slate-900 mb-3">Visión</h3>
+                      <p className="text-gray-700">{section.content.vision}</p>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold text-slate-900 mb-3">Valores</h3>
+                      <div className="grid grid-cols-2 gap-3">
+                        {section.content.valores.map((valor, idx) => (
+                          <div key={idx} className="flex items-center">
+                            <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
+                            <span className="text-gray-700">{valor}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
                   </div>
-                  <p className="text-lg text-slate-600 leading-relaxed">
-                    Ser el distribuidor de bebidas líder en la región, reconocido por nuestra innovación, calidad de
-                    servicio y compromiso con la satisfacción del cliente, expandiendo continuamente nuestro alcance y
-                    portafolio de productos premium.
-                  </p>
-                </div>
-
-                <div>
-                  <div className="flex items-center mb-4">
-                    <Heart className="h-8 w-8 text-amber-600 mr-3" />
-                    <h3 className="text-3xl font-bold text-slate-900">Valores</h3>
+                ) : section.id === "gestion-comercial" ? (
+                  <div className="space-y-6">
+                    <p className="text-lg text-gray-700 leading-relaxed">
+                      Implementamos el sistema Galaxia Q de Quilmes para optimizar nuestra gestión comercial, mejorando
+                      la eficiencia en pedidos, entregas y atención al cliente.
+                    </p>
+                    <p className="text-lg text-gray-700 leading-relaxed">
+                      Este sistema nos permite brindar un servicio más ágil y personalizado, manteniendo un control
+                      preciso de inventarios y facilitando la comunicación directa con nuestros clientes.
+                    </p>
                   </div>
-                  <p className="text-lg text-slate-600 leading-relaxed">
-                    Integridad, excelencia, compromiso con el cliente, trabajo en equipo, innovación continua y
-                    responsabilidad social. Estos valores guían cada una de nuestras decisiones y acciones diarias.
-                  </p>
-                </div>
+                ) : (
+                  <p className="text-lg text-gray-700 leading-relaxed">{section.content}</p>
+                )}
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Política de Calidad */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="order-2 lg:order-1 space-y-6">
-                <div className="flex items-center mb-4">
-                  <Shield className="h-8 w-8 text-amber-600 mr-3" />
-                  <h3 className="text-3xl font-bold text-slate-900">Política de Calidad</h3>
+              <div className={index % 2 === 1 ? "order-1" : ""}>
+                <div className="bg-gradient-to-br from-slate-100 to-slate-200 rounded-2xl h-64 flex items-center justify-center shadow-lg overflow-hidden">
+                  {section.id === "gestion-comercial" || section.id === "compromiso-sustentable" ? (
+                    <Image
+                      src="/logo-rsr-cafaratti.png"
+                      alt={
+                        section.id === "gestion-comercial" ? "Gestión Comercial Galaxia Q" : "Compromiso Sustentable"
+                      }
+                      fill
+                      className="object-cover rounded-2xl"
+                    />
+                  ) : section.id === "mision-vision-valores" ? (
+                    <Image
+                      src="/logo-rsr-cafaratti.png"
+                      alt="Misión, Visión y Valores"
+                      fill
+                      className="object-cover rounded-2xl"
+                    />
+                  ) : section.id === "politica-calidad" ? (
+                    <Image
+                      src="/logo-rsr-cafaratti.png"
+                      alt="Política de Calidad"
+                      fill
+                      className="object-cover rounded-2xl"
+                    />
+                  ) : section.id === "consumo-responsable" ? (
+                    <Image
+                      src="/logo-rsr-cafaratti.png"
+                      alt="Consumo Responsable"
+                      fill
+                      className="object-cover rounded-2xl"
+                    />
+                  ) : (
+                    <Image
+                      src="/logo-rsr-cafaratti.png"
+                      alt="Imagen Corporativa"
+                      fill
+                      className="object-cover rounded-2xl"
+                    />
+                  )}
                 </div>
-                <p className="text-lg text-slate-600 leading-relaxed">
-                  En RSR Cafaratti, la calidad es el pilar fundamental de nuestras operaciones. Implementamos rigurosos
-                  controles de calidad en cada etapa del proceso de distribución, desde la recepción de productos hasta
-                  la entrega final al cliente.
-                </p>
-                <p className="text-lg text-slate-600 leading-relaxed">
-                  Nuestro sistema de gestión de calidad está certificado bajo normas internacionales, garantizando que
-                  todos nuestros productos mantengan sus propiedades organolépticas y cumplan con los más altos
-                  estándares de seguridad alimentaria. Realizamos auditorías periódicas y capacitamos constantemente a
-                  nuestro personal para asegurar la excelencia en cada proceso.
-                </p>
-              </div>
-              <div className="order-1 lg:order-2">
-                <img
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Control de calidad y certificación"
-                  className="w-full h-80 object-cover rounded-lg shadow-lg"
-                />
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      ))}
 
-      {/* Gestión Comercial Galaxia Q */}
-      <section className="py-20 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <img
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Sistema Galaxia Q"
-                  className="w-full h-80 object-cover rounded-lg shadow-lg"
-                />
-              </div>
-              <div className="space-y-6">
-                <div className="flex items-center mb-4">
-                  <Star className="h-8 w-8 text-amber-600 mr-3" />
-                  <h3 className="text-3xl font-bold text-slate-900">Gestión Comercial Galaxia Q</h3>
-                </div>
-                <p className="text-lg text-slate-600 leading-relaxed">
-                  Implementamos el sistema Galaxia Q, una plataforma integral de gestión comercial que revoluciona
-                  nuestra operación diaria. Este sistema nos permite optimizar la gestión de inventarios, pedidos,
-                  facturación y seguimiento de entregas en tiempo real.
-                </p>
-                <p className="text-lg text-slate-600 leading-relaxed">
-                  Galaxia Q nos proporciona herramientas avanzadas de análisis y reportes que nos permiten tomar
-                  decisiones informadas, mejorar la eficiencia operativa y brindar un servicio más personalizado a
-                  nuestros clientes. La integración de esta tecnología nos posiciona a la vanguardia del sector.
-                </p>
-                <p className="text-lg text-slate-600 leading-relaxed">
-                  Gracias a Galaxia Q, podemos ofrecer a nuestros clientes acceso en línea a su información comercial,
-                  historial de pedidos, estado de entregas y análisis de consumo, facilitando una comunicación más
-                  fluida y transparente en nuestra relación comercial.
-                </p>
-              </div>
-            </div>
+      {/* Values */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-slate-900 mb-4">Nuestros Pilares</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Los fundamentos que sostienen nuestro compromiso con la excelencia
+            </p>
           </div>
-        </div>
-      </section>
 
-      {/* Consumo Responsable */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="order-2 lg:order-1 space-y-6">
-                <div className="flex items-center mb-4">
-                  <Heart className="h-8 w-8 text-amber-600 mr-3" />
-                  <h3 className="text-3xl font-bold text-slate-900">Consumo Responsable</h3>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {values.map((value, index) => (
+              <div
+                key={index}
+                className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 text-center"
+              >
+                <div className="bg-yellow-400 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <value.icon className="h-8 w-8 text-slate-900" />
                 </div>
-                <p className="text-lg text-slate-600 leading-relaxed">
-                  Promovemos activamente el consumo responsable de bebidas alcohólicas y educamos a nuestros clientes
-                  sobre la importancia de un consumo moderado y consciente. Colaboramos con organizaciones
-                  especializadas para desarrollar campañas de concientización y programas educativos.
-                </p>
-                <p className="text-lg text-slate-600 leading-relaxed">
-                  Nuestro compromiso incluye la verificación de edad en puntos de venta, la capacitación de personal en
-                  establecimientos comerciales y el apoyo a iniciativas que fomenten hábitos de consumo saludables en la
-                  comunidad. Creemos que la responsabilidad social es fundamental para el desarrollo sostenible de
-                  nuestro sector.
-                </p>
+                <h3 className="text-xl font-bold text-slate-900 mb-4">{value.title}</h3>
+                <p className="text-gray-600">{value.description}</p>
               </div>
-              <div className="order-1 lg:order-2">
-                <img
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Consumo responsable y responsabilidad social"
-                  className="w-full h-80 object-cover rounded-lg shadow-lg"
-                />
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
-
-      {/* Compromiso Sustentable */}
-      <section className="py-20 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <img
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Compromiso sustentable"
-                  className="w-full h-80 object-cover rounded-lg shadow-lg"
-                />
-              </div>
-              <div className="space-y-6">
-                <div className="flex items-center mb-4">
-                  <Leaf className="h-8 w-8 text-amber-600 mr-3" />
-                  <h3 className="text-3xl font-bold text-slate-900">Compromiso Sustentable</h3>
-                </div>
-                <p className="text-lg text-slate-600 leading-relaxed">
-                  Nuestro compromiso con la sustentabilidad se refleja en cada aspecto de nuestras operaciones.
-                  Implementamos prácticas eco-amigables en nuestra logística, optimizando rutas de entrega para reducir
-                  emisiones de carbono y utilizando vehículos con tecnologías más limpias.
-                </p>
-                <p className="text-lg text-slate-600 leading-relaxed">
-                  Trabajamos activamente en programas de reciclaje y reutilización de envases, colaborando con nuestros
-                  proveedores y clientes para crear un ciclo de vida más sostenible de los productos. Además, promovemos
-                  el uso responsable de recursos en nuestras instalaciones y fomentamos la conciencia ambiental entre
-                  nuestros colaboradores y la comunidad.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+    </main>
   )
 }
-
