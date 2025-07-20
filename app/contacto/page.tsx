@@ -149,7 +149,7 @@ export default function ContactoPage() {
                     <p className="text-gray-700">
                       +54 11 4567-8900
                       <br />
-                      +54 9 11 2345-6789 (WhatsApp)
+                      +54 9 11 6678-4173 (WhatsApp)
                     </p>
                   </div>
                 </div>
@@ -189,14 +189,14 @@ export default function ContactoPage() {
               <div className="mt-8 space-y-4">
                 <Button
                   className="w-full bg-green-500 hover:bg-green-600 text-white"
-                  onClick={() => window.open("https://wa.me/5491123456789", "_blank")}
+                  onClick={() => window.open("https://api.whatsapp.com/send?phone=5491166784173", "_blank")}
                 >
                   Contactar por WhatsApp
                 </Button>
                 <Button
                   variant="outline"
                   className="w-full bg-transparent"
-                  onClick={() => (window.location.href = "tel:+541145678900")}
+                  onClick={() => (window.location.href = "tel:+5491166784173")}
                 >
                   Llamar Ahora
                 </Button>
@@ -274,7 +274,7 @@ export default function ContactoPage() {
           <Button
             size="lg"
             className="bg-green-500 hover:bg-green-600 text-white px-8 py-3"
-            onClick={() => window.open("https://wa.me/5491123456789", "_blank")}
+            onClick={() => window.open("https://api.whatsapp.com/send?phone=5491166784173", "_blank")}
           >
             WhatsApp 24/7
           </Button>
