@@ -3,13 +3,29 @@
 import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Truck, Award, Users } from "lucide-react"
+import { useRouter } from "next/navigation"
 
 export default function Hero() {
   const [isVisible, setIsVisible] = useState(false)
+  const router = useRouter()
 
   useEffect(() => {
     setIsVisible(true)
   }, [])
+
+  const handleProductsClick = () => {
+    router.push("/productos")
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" })
+    }, 100)
+  }
+
+  const handleContactClick = () => {
+    router.push("/contacto")
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" })
+    }, 100)
+  }
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pt-20">
@@ -33,7 +49,11 @@ export default function Hero() {
             Distribución de bebidas líderes con más de 20 años de experiencia en el mercado
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" className="bg-yellow-400 hover:bg-yellow-500 text-slate-900 font-semibold px-8 py-3">
+            <Button
+              size="lg"
+              className="bg-yellow-400 hover:bg-yellow-500 text-slate-900 font-semibold px-8 py-3"
+              onClick={handleProductsClick}
+            >
               Conocer Productos
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
@@ -41,6 +61,7 @@ export default function Hero() {
               size="lg"
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 bg-transparent"
+              onClick={handleContactClick}
             >
               Contactar Ahora
             </Button>
