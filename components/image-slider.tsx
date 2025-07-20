@@ -16,15 +16,15 @@ export default function ImageSlider() {
     },
     {
       id: 2,
-      image: "/placeholder.svg?height=400&width=800",
-      title: "Marcas Reconocidas",
-      description: "Las mejores marcas del mercado",
+      image: "/consumo-responsable-portada.png",
+      title: "Consumo responsable",
+      description: "Venta solo a mayores de edad",
     },
     {
       id: 3,
-      image: "/placeholder.svg?height=400&width=800",
-      title: "Logística Eficiente",
-      description: "Entrega rápida y confiable",
+      image: "/bodega-portada.jpg",
+      title: "",
+      description: "",
     },
   ]
 
