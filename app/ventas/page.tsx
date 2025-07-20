@@ -31,21 +31,21 @@ export default function VentasPage() {
     {
       name: "Carlos Rodríguez",
       position: "Gerente de Ventas",
-      phone: "+54 9 11 2345-6789",
+      phone: "+54 9 11 6678-4173",
       email: "carlos@cafaratti.com.ar",
       zone: "Zona Norte",
     },
     {
       name: "María González",
       position: "Ejecutiva de Ventas",
-      phone: "+54 9 11 3456-7890",
+      phone: "+54 9 11 6678-4173",
       email: "maria@cafaratti.com.ar",
       zone: "Zona Sur",
     },
     {
       name: "Juan Pérez",
       position: "Ejecutivo de Ventas",
-      phone: "+54 9 11 4567-8901",
+      phone: "+54 9 11 6678-4173",
       email: "juan@cafaratti.com.ar",
       zone: "Zona Oeste",
     },
@@ -82,7 +82,7 @@ export default function VentasPage() {
               <p className="text-gray-600 mb-6">La forma más rápida y directa de hacer tu pedido</p>
               <Button
                 className="bg-green-500 hover:bg-green-600 text-white w-full"
-                onClick={() => window.open("https://wa.me/5491234567890", "_blank")}
+                onClick={() => window.open("https://api.whatsapp.com/send?phone=5491166784173", "_blank")}
               >
                 Contactar por WhatsApp
               </Button>
@@ -97,7 +97,7 @@ export default function VentasPage() {
               <Button
                 variant="outline"
                 className="w-full bg-transparent"
-                onClick={() => (window.location.href = "tel:+5491234567890")}
+                onClick={() => (window.location.href = "tel:+5491166784173")}
               >
                 Llamar Ahora
               </Button>
