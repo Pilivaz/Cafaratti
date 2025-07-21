@@ -55,12 +55,12 @@ export default function Empresa() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-8">
                 <img
-                  src="/placeholder.svg?height=300&width=600"
+                  src="/mision-vision-valores.jpg"
                   alt="Equipo de trabajo colaborativo"
                   className="w-full h-60 object-cover rounded-lg shadow-lg"
                 />
                 <img
-                  src="/placeholder.svg?height=300&width=600"
+                  src="/imagen-valores.jpg"
                   alt="Cultura organizacional"
                   className="w-full h-60 object-cover rounded-lg shadow-lg"
                 />
