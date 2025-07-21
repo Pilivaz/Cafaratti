@@ -57,12 +57,12 @@ export default function Empresa() {
                 <img
                   src="/mision-vision-valores.jpg"
                   alt="Equipo de trabajo colaborativo"
-                  className="w-full h-60 object-cover rounded-lg shadow-lg"
+                  className="w-full h-full object-cover rounded-lg shadow-lg"
                 />
                 <img
                   src="/imagen-valores.jpg"
                   alt="Cultura organizacional"
-                  className="w-full h-60 object-cover rounded-lg shadow-lg"
+                  className="w-full h-full object-cover rounded-lg shadow-lg"
                 />
               </div>
               <div className="space-y-8">
