@@ -171,7 +171,7 @@ export default function Empresa() {
                 <img
                   src="/quilmes-poster.jpg"
                   alt="Control de calidad y certificación"
-                  className="w-full h-100 object-cover rounded-lg shadow-lg"
+                  className="w-full h-90 object-cover rounded-lg shadow-lg"
                 />
               </div>
             </div>
