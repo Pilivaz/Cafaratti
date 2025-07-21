@@ -195,12 +195,12 @@ export default function Empresa() {
                 <img
                   src="/galaxiaQ.jpg"
                   alt="Sistema Galaxia Q - Dashboard"
-                  className="w-full h-60 object-cover rounded-lg shadow-lg"
+                  className="w-full h-full object-cover rounded-lg shadow-lg"
                 />
                 <img
                   src="/galaxiaQ-premios.jpg"
                   alt="Sistema Galaxia Q - Reportes"
-                  className="w-full h-60 object-cover rounded-lg shadow-lg"
+                  className="w-full h-full object-cover rounded-lg shadow-lg"
                 />
               </div>
               <div className="space-y-6">
