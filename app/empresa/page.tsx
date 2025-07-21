@@ -189,16 +189,16 @@ export default function Empresa() {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
+              <div className="space-y-8">
                 <img
-                  src="/galaxiaQ.jpg"
-                  alt="Sistema Galaxia Q"
-                  className="w-full h-80 object-cover rounded-lg shadow-lg"
+                  src="/placeholder.svg?height=300&width=600"
+                  alt="Sistema Galaxia Q - Dashboard"
+                  className="w-full h-60 object-cover rounded-lg shadow-lg"
                 />
                 <img
-                  src="/galaxiaQ-premios.jpg"
-                  alt="Sistema Galaxia Q"
-                  className="w-full h-80 object-cover rounded-lg shadow-lg"
+                  src="/placeholder.svg?height=300&width=600"
+                  alt="Sistema Galaxia Q - Reportes"
+                  className="w-full h-60 object-cover rounded-lg shadow-lg"
                 />
               </div>
               <div className="space-y-6">
