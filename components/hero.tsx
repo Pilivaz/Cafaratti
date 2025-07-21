@@ -46,7 +46,7 @@ export default function Hero() {
             RSR <span className="text-yellow-400">Cafaratti</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Distribución de bebidas líderes con más de 20 años de experiencia en el mercado
+            Distribución de bebidas líderes con más de 90 años de experiencia en el mercado
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button
@@ -71,7 +71,7 @@ export default function Hero() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-16">
             <div className="flex flex-col items-center p-4 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20">
               <Award className="h-12 w-12 text-yellow-400 mb-4" />
-              <h3 className="text-2xl font-bold text-white mb-2">+20 Años</h3>
+              <h3 className="text-2xl font-bold text-white mb-2">+90 Años</h3>
               <p className="text-gray-300">de experiencia</p>
             </div>
             <div className="flex flex-col items-center p-4 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20">
