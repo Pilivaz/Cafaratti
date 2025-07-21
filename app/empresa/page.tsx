@@ -54,18 +54,16 @@ export default function Empresa() {
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-8">
-                <div>
                 <img
                   src="/mision-vision-valores.jpg"
-                  alt="Cafaratti edificio"
-                  className="w-full h-80 object-cover rounded-lg shadow-lg"
-                />
-                <img
-                  src="clientes.jpg"
-                  alt="Sistema Galaxia Q - Reportes"
+                  alt="Equipo de trabajo colaborativo"
                   className="w-full h-60 object-cover rounded-lg shadow-lg"
                 />
-              </div>
+                <img
+                  src="/clientes.jpg"
+                  alt="Cultura organizacional"
+                  className="w-full h-60 object-cover rounded-lg shadow-lg"
+                />
               </div>
               <div className="space-y-8">
                 <div>
