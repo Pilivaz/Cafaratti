@@ -59,6 +59,16 @@ export default function Empresa() {
                   alt="Cafaratti edificio"
                   className="w-full h-80 object-cover rounded-lg shadow-lg"
                 />
+                <img
+                  src="/imagen-valores.jpg"
+                  alt="Cafaratti edificio"
+                  className="w-full h-80 object-cover rounded-lg shadow-lg"
+                />
+                <img
+                  src="clientes.jpg"
+                  alt="Sistema Galaxia Q - Reportes"
+                  className="w-full h-60 object-cover rounded-lg shadow-lg"
+                />
               </div>
               <div className="space-y-8">
                 <div>
@@ -171,7 +181,7 @@ export default function Empresa() {
                 <img
                   src="/quilmes-poster.jpg"
                   alt="Control de calidad y certificación"
-                  className="w-full h-80 object-cover rounded-lg shadow-lg"
+                  className="w-full h-full object-cover rounded-lg shadow-lg"
                 />
               </div>
             </div>
@@ -187,6 +197,11 @@ export default function Empresa() {
               <div>
                 <img
                   src="/galaxiaQ.jpg"
+                  alt="Sistema Galaxia Q"
+                  className="w-full h-80 object-cover rounded-lg shadow-lg"
+                />
+                <img
+                  src="/galaxiaQ-premios.jpg"
                   alt="Sistema Galaxia Q"
                   className="w-full h-80 object-cover rounded-lg shadow-lg"
                 />
