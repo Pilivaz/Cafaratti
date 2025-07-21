@@ -60,11 +60,6 @@ export default function Empresa() {
                   className="w-full h-80 object-cover rounded-lg shadow-lg"
                 />
                 <img
-                  src="/imagen-valores.jpg"
-                  alt="Cafaratti edificio"
-                  className="w-full h-80 object-cover rounded-lg shadow-lg"
-                />
-                <img
                   src="clientes.jpg"
                   alt="Sistema Galaxia Q - Reportes"
                   className="w-full h-60 object-cover rounded-lg shadow-lg"
