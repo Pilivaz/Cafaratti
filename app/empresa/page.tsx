@@ -24,7 +24,7 @@ export default function Empresa() {
               <div className="space-y-6 text-lg text-gray-700">
                 <p>
                   RSR Cafaratti es una empresa dedicada a la distribución de bebidas de primeras marcas, producidas por
-                  Cervecería y Maltería Quilmes, con más de 20 años de experiencia en el sector.
+                  Cervecería y Maltería Quilmes, con más de 90 años de experiencia en el sector.
                 </p>
                 <p>
                   Nuestra máxima aspiración es dar servicio y calidad a nuestros clientes ofreciendo marcas líderes como
@@ -39,7 +39,7 @@ export default function Empresa() {
             <div className="relative">
               <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-2xl p-8 shadow-2xl">
                 <div className="text-center text-slate-900">
-                  <div className="text-6xl font-bold mb-2">20+</div>
+                  <div className="text-6xl font-bold mb-2">90+</div>
                   <div className="text-xl font-semibold">Años de Experiencia</div>
                 </div>
               </div>
