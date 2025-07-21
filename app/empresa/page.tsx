@@ -53,7 +53,8 @@ export default function Empresa() {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
+              <div className="space-y-8">
+                <div>
                 <img
                   src="/mision-vision-valores.jpg"
                   alt="Cafaratti edificio"
@@ -64,6 +65,7 @@ export default function Empresa() {
                   alt="Sistema Galaxia Q - Reportes"
                   className="w-full h-60 object-cover rounded-lg shadow-lg"
                 />
+              </div>
               </div>
               <div className="space-y-8">
                 <div>
@@ -191,12 +193,12 @@ export default function Empresa() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-8">
                 <img
-                  src="/placeholder.svg?height=300&width=600"
+                  src="/galaxiaQ.jpg"
                   alt="Sistema Galaxia Q - Dashboard"
                   className="w-full h-60 object-cover rounded-lg shadow-lg"
                 />
                 <img
-                  src="/placeholder.svg?height=300&width=600"
+                  src="/galaxiaQ-premios.jpg"
                   alt="Sistema Galaxia Q - Reportes"
                   className="w-full h-60 object-cover rounded-lg shadow-lg"
                 />
